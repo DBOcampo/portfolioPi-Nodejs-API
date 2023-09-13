@@ -17,7 +17,7 @@ import cors from "cors";
 export const app = express();
 
 const corsOptions = {
-  origin: "http://localhost:4200", // Whitelist the specific origin
+  origin: "https://portfoliopi.web.app", // Whitelist the specific origin
   methods: "GET,HEAD,PUT,PATCH,POST,DELETE", // Allowed HTTP methods
   credentials: true, // Enable cookies and authorization headers
   optionsSuccessStatus: 204, // Set the response status for preflight requests
