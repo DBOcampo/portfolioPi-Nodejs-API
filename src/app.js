@@ -14,7 +14,7 @@ import signup from "./routes/SignUp.routes.js"
 
 import cors from "cors";
 
-const app = express();
+export const app = express();
 
 const corsOptions = {
   origin: "http://localhost:4200", // Whitelist the specific origin
@@ -38,7 +38,3 @@ app.use(skillhs)
 app.use(maininfo)
 app.use(signin)
 app.use(signup)
-
-app.listen(3000);
-
-console.log("App listening on port 3000");
