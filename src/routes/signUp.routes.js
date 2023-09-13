@@ -4,4 +4,5 @@ const router = Router();
 
 router.post("/api/auth/signup", signUp);
 
+
 export default router;
